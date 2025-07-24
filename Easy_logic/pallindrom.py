@@ -1,5 +1,16 @@
 def pallindome(n):
+    n = str(n)
+    #two pointer opposite
+    left, right = 0, len(n) - 1
+    while left < right:
+        if n[left] != n[right]:
+            return False
+        left +=1
+        right -=1
+    return True
 
+
+    """
     s = str(abs(n))
     lenght = len(s)
 
@@ -7,7 +18,7 @@ def pallindome(n):
         if s[i] != s[lenght - i - 1]:
             return False
         return True
-
+    """
 
     """rev = 0
     temp = abs(n)
@@ -17,7 +28,7 @@ def pallindome(n):
         temp //= 10
     return (rev == abs(n))
     """
-n = 123432121
+n = 122222421
 if pallindome(n) == True:
     print("Yes")
 else:
