@@ -6,6 +6,7 @@ def min_max_divide_conquer(arr):
         if right == left + 1:
             return min(arr[left], arr[right]), max(arr[left], arr[right])
         
+        #divide
         mid = (left + right) // 2
 
         #conquer - recuresive call
