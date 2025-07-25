@@ -8,10 +8,12 @@ def leader_array(arr):
             result.append(arr[i])
             max_right = arr[i]
 
+
     return result[::-1]
 
 
-    """result = []
+    """
+    result = []
     n = len(arr)
 
     for i in range(n):
@@ -23,7 +25,8 @@ def leader_array(arr):
                 break
         if is_leader:
             result.append(arr[i])
-    return result"""
+    return result
+    """
 
 arr = [78,98,56,67,43,23,1]
 print(leader_array(arr))

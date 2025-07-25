@@ -63,3 +63,11 @@ for i in range(n):
     for j in range(i+1):
         print(" ",end="")
     print()
+
+#decrease new style
+"""
+n = 10
+for i in range(n):
+    count = n - i
+    print("* " * count)
+    """

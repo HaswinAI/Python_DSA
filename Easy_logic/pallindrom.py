@@ -9,7 +9,6 @@ def pallindome(n):
         right -=1
     return True
 
-
     """
     s = str(abs(n))
     lenght = len(s)
