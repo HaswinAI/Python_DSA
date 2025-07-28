@@ -1,12 +1,23 @@
 def reverse_arr(arr):
+
+    #two swap
+    n = len(arr)
+    for i in range(n // 2):
+        temp = arr[i]
+        arr[i] = arr[n - i - 1]
+        arr[n - i - 1] = temp
+    return arr
+
     #temp
+    """
     n = len(arr)
     temp = [0] * n
     for i in range(n):
         temp[i] = arr[n - i - 1]
     for i in range(n):
         arr[i] = temp[i]
-    return arr 
+    return arr
+    """ 
 
     #Two pointer
     """
