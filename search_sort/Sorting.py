@@ -17,8 +17,6 @@ def bubble_sort(arr):
         arr[i], arr[j] = arr[j], arr[i]
     return arr
         
-
-
 arr = [13,46,24,52,20,9]
 print(selection_sort(arr))
 print(bubble_sort(arr))
