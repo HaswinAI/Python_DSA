@@ -7,7 +7,7 @@ def insertion_sort(arr,n):
             arr[j+1] = arr[j]
             j = j - 1
 
-        arr[j+1] = key
+        arr[j+1] = key  
 
 arr=[2,5,7,4,9,1]
 insertion_sort(arr,len(arr))

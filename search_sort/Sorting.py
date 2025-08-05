@@ -15,6 +15,13 @@ def bubble_sort(arr):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
+
+def insertion_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        j = i
+        for j in range(i,n-i-1):
+            if 
         
 arr = [13,46,24,52,20,9]
 print(selection_sort(arr))
