@@ -8,7 +8,6 @@ def insertion(arr):
             j -= 1
         arr[j+1] = key
 
-        
     return arr
 
 arr = [3,8,2,90,40]
