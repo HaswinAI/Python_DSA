@@ -15,6 +15,7 @@ for i in range(n):
     print()
 """
 #pyramid
+
 """
 for i in range(n):
     for j in range(i,n):
