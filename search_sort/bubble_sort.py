@@ -20,20 +20,6 @@ def recursive_bsort(arr, n=None):
     recursive_bsort(arr, n - 1)
 
 arr = [9,7,3,4,2,3,1]
-def recursive_bsort(arr, n=None):
-    if n is None:
-        n = len(arr)
-    
-    if n == 1:
-        return
-    
-    for i in range(n - 1):
-        if arr[i] > arr[i+1]:
-            arr[i],arr[i+1] = arr[i+1], arr[i]
-    
-    recursive_bsort(arr, n - 1)
-
-arr = [9,7,3,4,2,3,1]
 print(bubble_sort(arr))
 recursive_bsort(arr)
 print(arr)
