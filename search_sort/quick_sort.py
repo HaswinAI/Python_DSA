@@ -14,13 +14,12 @@ def partition(arr,low,high):
             left += 1
         while left <= right and arr[right] >= pivot_index:
             right -= 1
-        
         if left > right:
             break
 
         arr[left],arr[right] = arr[right],arr[left]
     arr[low],arr[right] = arr[right], arr[low]
-
+    
     return right
 
 arr = [8,7,6,5,4,3,2,1]
