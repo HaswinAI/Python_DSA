@@ -14,6 +14,7 @@ def partition(arr,low,high):
             left += 1
         while left <= right and arr[right] >= pivot_index:
             right -= 1
+        
         if left > right:
             break
 
