@@ -20,7 +20,6 @@ def partition(arr,low,high):
         arr[left],arr[right] = arr[right],arr[left]
     arr[low],arr[right] = arr[right], arr[low]
 
-
     return right
 
 arr = [8,7,6,5,4,3,2,1]
