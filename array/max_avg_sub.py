@@ -11,3 +11,5 @@ def max_avg(arr):
 
 arr = [1,12,-5,-6,50,3]
 print(max_avg(arr))
+
+
