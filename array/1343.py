@@ -4,9 +4,8 @@ def subarray(arr,k,thresehold):
     window_sum = sum(arr[:k])
     for i in range(k,len(arr)):
         window_sum += arr[i] - arr[i-k]
-        if window_sum >= thresehold:
+        if (window_sum/k) >= thresehold:
             res += 1
-        window_sum -= arr[i]
 
     return res
 
