@@ -7,5 +7,5 @@ def check(arr):
     return True
 
 
-arr = [1,2,3,5,4,6]
+arr = [1,2,3,4,5,6]
 print(check(arr))   
